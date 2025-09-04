@@ -44,7 +44,7 @@ Contoh Coding:
 
     public abstract void hadir();
 
-}
+    }
 
 # Interface
 Interface adalah sebuah kontrak dalam Java yang berisi kumpulan method (tanpa isi) dan konstanta, yang harus diimplementasikan oleh class. Class yang mengimplementasikan interface wajib menyediakan implementasi untuk semua method yang ada di interface tersebut.
