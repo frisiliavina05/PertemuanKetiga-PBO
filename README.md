@@ -25,7 +25,8 @@ Abstract class:
 - Dapat berisi method abstract ataupun method biasa.
 
 Contoh Coding:
-abstract class PegawaiRumahSakit {
+
+    abstract class PegawaiRumahSakit {
 
     private String Nama;
     
@@ -54,10 +55,11 @@ Interface:
 - Atribut/Field dalam interface otomatis bersifat public static final.
 
 Contoh Coding:
-interface BisaOperasi {
+
+    interface BisaOperasi {
 
     void MelakukanOperasi();
-}
+    }
 
 # Overloading
 Overloading adalah kemampuan sebuah kelas untuk memiliki beberapa method dengan nama yang sama, namun parameter berbeda (jumlah, tipe, atau urutan). Dengan overloading, satu method bisa digunakan untuk berbagai situasi, membuat kode lebih fleksibel dan mudah dipahami.
