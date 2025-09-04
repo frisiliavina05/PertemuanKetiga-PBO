@@ -69,11 +69,11 @@ Overloading:
 
 Contoh Coding:
 
-public double gaji(double gajiPokok, double tunjangan) {
+    public double gaji(double gajiPokok, double tunjangan) {
         return gajiPokok + tunjangan;
     }
 
-public double gaji(double gajiPokok, double tunjangan, double bonus) {
+    public double gaji(double gajiPokok, double tunjangan, double bonus) {
         return gajiPokok + tunjangan + bonus;
     }
 
@@ -88,11 +88,13 @@ Overriding:
 Contoh Coding:
 
 Pada class Karyawan
-public void info() {
+
+    public void info() {
         System.out.println("Karyawan ini bernama " + getNama());
     }
 
 Pada class Manager
-public void info() {
+
+    public void info() {
         System.out.println("Manager ini bernama " + getNama() + " dengan bonus " + "Rp " + bonus);
     }
