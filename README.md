@@ -20,7 +20,7 @@ Pada tugas ini mengimplementasikan konsep Pemrograman Berorientasi Objek (PBO) d
 Abstract class dalah sebuah kontrak (blueprint) dalam OOP yang berisi kumpulan deklarasi method (tanpa implementasi) yang harus diimplementasikan oleh class yang menggunakannya. Interface biasanya digunakan untuk mencapai multiple inheritance. Fungsinya memberikan struktur umum untuk kelas turunan, tanpa harus menentukan detail implementasinya.
 
 Abstract class:
-- Dapat memiliki variabel/field (misal: int umur, String jenis).
+- Dapat memiliki variabel/field (misal: int umur, String nama).
 - Dapat memiliki constructor untuk inisialisasi nilai awan.
 - Dapat berisi method abstract ataupun method biasa.
 
