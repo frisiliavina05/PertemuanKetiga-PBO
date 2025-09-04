@@ -1,10 +1,10 @@
 # Penerapan Konsep Interface, Abstract Class, Overload, dan Override
 
 Pada tugas ini mengimplementasikan konsep Pemrograman Berorientasi Objek (PBO) dalam Java yang mencakup :
-•	3 abstract class
-•	3 interface
-•	Subclass yang mengimplementasikan abstract class dan interface
-•	Contoh penerapan overloading dan overriding dalam 3 class
+- 3 abstract class
+- 3 interface
+- Subclass yang mengimplementasikan abstract class dan interface
+- Contoh penerapan overloading dan overriding dalam 3 class
 
 # Petunjuk praktikum
 1.	Buatlah sebuah project baru pada IDE Java seperti NetBeans. 
@@ -18,6 +18,7 @@ Pada tugas ini mengimplementasikan konsep Pemrograman Berorientasi Objek (PBO) d
 
 # Abstract Class
 Abstract class dalah sebuah kontrak (blueprint) dalam OOP yang berisi kumpulan deklarasi method (tanpa implementasi) yang harus diimplementasikan oleh class yang menggunakannya. Interface biasanya digunakan untuk mencapai multiple inheritance. Fungsinya memberikan struktur umum untuk kelas turunan, tanpa harus menentukan detail implementasinya.
+
 Abstract class:
 - Dapat memiliki variabel/field (misal: int umur, String jenis).
 - Dapat memiliki constructor untuk inisialisasi nilai awan.
@@ -46,10 +47,11 @@ abstract class PegawaiRumahSakit {
 
 # Interface
 Interface adalah sebuah kontrak dalam Java yang berisi kumpulan method (tanpa isi) dan konstanta, yang harus diimplementasikan oleh class. Class yang mengimplementasikan interface wajib menyediakan implementasi untuk semua method yang ada di interface tersebut.
+
 Interface:
-•	Tidak bisa punya constructor (berbeda dengan abstract class)
-•	Semua method di dalam interface bersifat abstrak (tanpa isi, kecuali default atau static).
-•	Atribut/Field dalam interface otomatis bersifat public static final.
+- Tidak bisa punya constructor (berbeda dengan abstract class)
+- Semua method di dalam interface bersifat abstrak (tanpa isi, kecuali default atau static).
+- Atribut/Field dalam interface otomatis bersifat public static final.
 
 Contoh Coding:
 interface BisaOperasi {
