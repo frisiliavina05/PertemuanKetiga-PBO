@@ -58,7 +58,7 @@ Contoh Coding:
 
     interface BisaOperasi {
 
-    void MelakukanOperasi();
+        void MelakukanOperasi();
     }
 
 # Overloading
