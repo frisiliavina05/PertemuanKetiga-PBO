@@ -58,3 +58,41 @@ interface BisaOperasi {
 
     void MelakukanOperasi();
 }
+
+# Overloading
+Overloading adalah kemampuan sebuah kelas untuk memiliki beberapa method dengan nama yang sama, namun parameter berbeda (jumlah, tipe, atau urutan). Dengan overloading, satu method bisa digunakan untuk berbagai situasi, membuat kode lebih fleksibel dan mudah dipahami.
+
+Overloading:
+- Ditentukan oleh parameter (jumlah/tipe/urutan)
+- Bisa static, final, atau private
+- Compile-time polymorphism
+
+Contoh Coding:
+
+public double gaji(double gajiPokok, double tunjangan) {
+        return gajiPokok + tunjangan;
+    }
+
+public double gaji(double gajiPokok, double tunjangan, double bonus) {
+        return gajiPokok + tunjangan + bonus;
+    }
+
+# Overriding
+Overriding adalah kemampuan subclass untuk mengubah atau menulis ulang method yang sudah ada di superclass dengan implementasi baru. Hal ini memungkinkan subclass memberikan perilaku khusus, mendukung polymorphism dalam OOP.
+
+Overriding:
+- Ditentukan oleh inheritance (harus ada hubungan parent-child)
+- Tidak bisa static, final, atau private
+- Runtime polymorphism
+
+Contoh Coding:
+
+Pada class Karyawan
+public void info() {
+        System.out.println("Karyawan ini bernama " + getNama());
+    }
+
+Pada class Manager
+public void info() {
+        System.out.println("Manager ini bernama " + getNama() + " dengan bonus " + "Rp " + bonus);
+    }
